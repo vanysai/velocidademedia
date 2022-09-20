@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocidade Média</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header>
+        Velocidade Média
+    </header>
+
+    <div class = "menu">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="./html/sobre.html">Sobre</a>
+        </nav>
+    </div>
+    
+    <div class = "calculo">
+        <div class = "titulo">
+            Cálculo
+        </div>
+        <br>
+        <input type="number" placeholder="Informe o valor do deslocamento" id="distancia">
+        <br>
+        <input type="number" placeholder="Informe o intervalo de tempo" id="tempo">
+        <br>
+             <div class = "botoes">
+                <button class="btn2" onclick="excluir()">Limpar</button>
+                <button class="btn1" onclick="velocidademedia()">Calcular</button>
+            </div>
+        <br>
+        <input class="result" type="number" placeholder="" id="vm">
+
+    </div>
+
+    <div class = "resultados">
+        <div class = "titulo">
+            Resultados
+        </div>
+        <div class = "final" id="red"></div>
+    </div>
+
+    <footer>
+        <li>SENAI SC - CTAI</li>
+        <li>Curso de Desenvolvimento de Sistemas</li>
+        <li>Lógica de Programa</li>
+        <li>Jaíza Monteiro dos Santos Freire</li>
+    </footer>
+
+</body>
+</html>
